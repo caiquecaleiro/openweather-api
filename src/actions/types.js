@@ -1,0 +1,2 @@
+export const FETCH_FORECAST = 'FETCH_WEATHER';
+export const FORECAST_ERROR = 'FORECAST_ERROR';

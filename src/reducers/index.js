@@ -1,5 +1,7 @@
 import { combineReducers } from 'redux';
 
+import forecast from './forecast';
+
 export default combineReducers({
-   state: (state = {}) => state
+  forecast
 });
