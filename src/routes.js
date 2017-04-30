@@ -2,13 +2,13 @@ import React from 'react';
 import { Router, hashHistory } from 'react-router';
 
 import App from './components/App';
-import SearchBar from './containers/SearchBar';
+import ForecastList from './containers/ForecastList';
 
 const componentRoutes = {
   component: App,
   path: '/',
   indexRoute: { 
-    component: SearchBar 
+    component: ForecastList 
   }
 };
 
